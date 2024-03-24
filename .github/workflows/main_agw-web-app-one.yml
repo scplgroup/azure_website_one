@@ -20,7 +20,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: .net-app
-          path: ${{../../}}
+          path: "../../"
 
   deploy:
     runs-on: windows-latest
